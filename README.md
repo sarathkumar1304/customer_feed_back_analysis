@@ -139,7 +139,7 @@ Customer_Feedback_Analysis/
 │── DockerFile
 │── docker-compose.yml
 
----
+```
 
 ## 🧠 Tech Stack
 
@@ -151,18 +151,17 @@ Customer_Feedback_Analysis/
 * **Streamlit**
 * **Pandas**
 
----
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to open a pull request.
 
----
+
 
 ## 📃 License
 
 This project is licensed under the MIT License.
 
----
+
 
 
