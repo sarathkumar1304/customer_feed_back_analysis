@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sarath_kumar/customer_feedback_analysis/mlruns/0/9b3da586a1844947aa6b69108574d4ea/artifacts
+end_time: 1748918731528
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9b3da586a1844947aa6b69108574d4ea
+run_name: loud-rat-677
+run_uuid: 9b3da586a1844947aa6b69108574d4ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748918665841
+status: 3
+tags: []
+user_id: sarath_kumar

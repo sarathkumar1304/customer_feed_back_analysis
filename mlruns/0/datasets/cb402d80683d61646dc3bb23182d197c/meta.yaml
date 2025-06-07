@@ -1,0 +1,9 @@
+digest: 83fd0ec8
+name: dataset
+profile: '{"features_shape": [4526, 5000], "features_size": 22630000, "features_nbytes":
+  181040000}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"float64\", \"shape\": [-1, 5000]}}]", "targets": null}}'
+source: '{"tags": {"mlflow.user": "sarath_kumar", "mlflow.source.name": "run_pipeline.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

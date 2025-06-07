@@ -1,0 +1,15 @@
+# .gitignore
+
+# Ignore virtual environments
+myenv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore model artifacts if needed
+*.pkl
+models/
+# Ignore system files
+.DS_Store
+.env
