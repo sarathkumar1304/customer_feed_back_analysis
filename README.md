@@ -1,4 +1,7 @@
-# 📊 Customer Feedback Sentiment Prediction Web App
+### Architecture
+
+![Architecture](assets/customer.drawio.svg)
+# 📊 Customer Feedback Sentiment Prediction 
 
 This project is a complete end-to-end pipeline to predict whether customer feedback is **positive** or **negative**, using machine learning and MLOps tools. It leverages **ZenML** for orchestration, **MLflow** for experiment tracking and model deployment, and **Streamlit** for the interactive web interface.
 
