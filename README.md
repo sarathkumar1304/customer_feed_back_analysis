@@ -1,4 +1,4 @@
-### 🏛️ Architecture
+# 🏛️ Architecture
 
 ![Architecture](assets/customer.drawio.svg)
 # 📊 Customer Feedback Sentiment Prediction 
