@@ -2,12 +2,22 @@ from steps.data_ingestion_step import data_ingestion_step
 from steps.data_preprocessing_step import data_preprocessing_step   
 from steps.data_splitting_step import data_splitting_step
 from zenml import pipeline
+from zenml import Model
 from steps.vectorization_step import vectorization_step
 from steps.model_building_step import model_building_step
 from steps.model_evaluation_step import model_evaluation_step
 
 
-@pipeline
+@pipeline(
+    model=Model(
+        name="customer_feedback_analysis",
+        flavor="sklearn",
+        description="A model to analyze customer feedback from e-commerce reviews.",
+        tags=["customer_feedback", "e-commerce", "reviews", "sentiment_analysis"],
+        version="1.0.0",
+
+    )
+)
 def training_pipeline():
     """
     Pipeline for data ingestion.
